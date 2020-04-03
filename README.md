@@ -20,9 +20,9 @@ Contains the book rating information. Ratings (`Book-Rating`) are either explici
  </ul>
 
 
-The books dataset provides book details. It includes 271,360 records and 8 fields: ISBN, book title, book author, publisher and so on.<br>This dataset provides the user demographic information. It includes 278,858 records and 3 fields: user id, location, and age.<br>
-
- It contains 1.1 million ratings of 270,000 books by 90,000 users. The ratings are on a scale from 1 to 10.The data consists of three tables: ratings, books info, and users info from three diffrent tables.
+The books dataset provides book details. It includes 271,360 records and 8 fields: ISBN, book title, book author, publisher and so on.<br>This dataset provides the user demographic information. It includes 278,858 records and 3 fields: user id, location, and age.
+<br>
+It contains 1.1 million ratings of 270,000 books by 90,000 users. The ratings are on a scale from 1 to 10.The data consists of three tables: ratings, books info, and users info from three diffrent tables.
  
  <h2>Ratings Data</h2>
  The ratings data set provides a list of ratings that users have given to books. It includes 1,149,780 records and 3 fields: userID, ISBN, and bookRating.The ratings are very unevenly distributed, and the vast majority of ratings are 0.<br>
