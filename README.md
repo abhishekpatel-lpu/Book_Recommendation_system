@@ -1,6 +1,25 @@
 # Book_Recommendation_system
 Book Recommendation System based upon a Book Review
 
+<h3>Link of Data Set</h3>
+http://www2.informatik.uni-freiburg.de/~cziegler/BX/ <br>
+The Book-Crossing dataset comprises 3 tables.
+<ul style="list-style-type:disc;">
+  <li>BX-Users</li>
+Contains the users. Note that user IDs (`User-ID`) have been anonymized and map to integers. Demographic data is provided (`Location`, `Age`) if available. Otherwise, these fields contain NULL-values.
+ </ul>
+ 
+ <ul style="list-style-type:disc;">
+  <li>BX-Books</li>
+Books are identified by their respective ISBN. Invalid ISBNs have already been removed from the dataset. Moreover, some content-based information is given (`Book-Title`, `Book-Author`, `Year-Of-Publication`, `Publisher`), obtained from Amazon Web Services. Note that in case of several authors, only the first is provided. URLs linking to cover images are also given, appearing in three different flavours (`Image-URL-S`, `Image-URL-M`, `Image-URL-L`), i.e., small, medium, large. These URLs point to the Amazon web site.
+ </ul>
+
+<ul style="list-style-type:disc;">
+  <li>BX-Book-Ratings</li>
+Contains the book rating information. Ratings (`Book-Rating`) are either explicit, expressed on a scale from 1-10 (higher values denoting higher appreciation), or implicit, expressed by 0.
+ </ul>
+
+
 The books dataset provides book details. It includes 271,360 records and 8 fields: ISBN, book title, book author, publisher and so on.<br>This dataset provides the user demographic information. It includes 278,858 records and 3 fields: user id, location, and age.<br>
 
  It contains 1.1 million ratings of 270,000 books by 90,000 users. The ratings are on a scale from 1 to 10.The data consists of three tables: ratings, books info, and users info from three diffrent tables.
